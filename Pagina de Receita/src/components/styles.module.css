@@ -1,0 +1,185 @@
+/* styles.module.css */
+.container {
+    display: grid;
+    background-color: white; /* Define a cor de fundo como branca */
+    width: 900px; /* Defina o máximo de largura para o seu container */
+    height: 2000px;
+    margin: 100px auto; /* Define as margens superior e inferior como 0 e as margens esquerda e direita como "auto" para centralizar o container na tela */
+    border-radius: 20px; /* Arredonda as bordas do container */
+    overflow: hidden; /* Para garantir que a imagem respeite o border-radius */
+}
+
+.image {
+    width: 90%; /* Define a largura da imagem para ocupar 42% da largura do container */
+    padding: 43px; /* Adiciona espaço interno de 20 pixels em todas as direções */
+    border-radius: 60px; /* Arredonda as bordas do container */
+}
+
+/* DESCRIPTION */
+.description{
+    padding: 40px;
+}
+
+.description h1{
+    font-family: "Outfit";
+    margin-left: 10px; /* Remova a margem esquerda que você adicionou */
+    margin-top: -290px;
+    font-size: 49px;
+}
+
+.description p{
+    margin-left: 10px; /* Remova a margem esquerda que você adicionou */
+    font-size: 21px;
+    margin-top: -15px;
+    font-family: "sans-serif";
+}
+
+/* PREPARATION*/
+.preparation{
+    display: grid;
+    background-color: #fff7fc; /* Define a cor de fundo como branca */
+    margin: 50px;
+    border-radius: 10px; /* Arredonda as bordas do container */
+    margin-top: -410px;
+    height: 200px;
+
+}
+
+.preparation h3{
+    padding: 40px;
+    margin-top: -20px;
+    color: #e41598; /* Altere 'blue' para a cor desejada */
+}
+
+.preparation p{
+    padding: 40px;
+    margin-top: -70px;
+}
+
+
+.preparationList {
+    white-space: pre-line; /* Preserva espaços em branco e respeita quebras de linha */
+}
+
+.asterisk {
+    color: #e41598; /* Use a mesma cor do h3 */
+}
+
+/* IGREDIENTES */
+.ingredients{
+    display: grid;
+    background-color: white; /* Define a cor de fundo como branca */
+    margin: 50px;
+    margin-top: -450px;
+}
+
+.ingredients h2{
+    font-family: "Outfit";
+    font-size: 30px;
+    color: #765243;
+}
+
+.ingredientsList{
+    font-size: 15px;
+    margin-top: -190px;
+}
+
+.asterisk1 {
+    margin: 18px;
+    color: #765243;
+}
+
+/* LINHAS*/
+.hrLine {
+    border: none;
+    border-top: 1px solid #ccc; /* Define a cor e o estilo da linha */
+    margin-top: -180px; /* Define a distância entre a linha e o texto acima */
+}
+
+.hrLine1 {
+    border: none;
+    border-top: 1px solid #ccc; /* Define a cor e o estilo da linha */
+    margin-top: -100px; /* Define a distância entre a linha e o texto acima */
+}
+
+.hrLine2 {
+    border: none;
+    border-top: 1px solid #ccc; /* Define a cor e o estilo da linha */
+    margin-top: -99px; /* Define a distância entre a linha e o texto acima */
+}
+
+.hrLine3 {
+    border: none;
+    border-top: 1px solid #ccc; /* Define a cor e o estilo da linha */
+    margin-top: -99px; /* Define a distância entre a linha e o texto acima */
+}
+
+.hrLine4 {
+    border: none;
+    border-top: 1px solid #ccc; /* Define a cor e o estilo da linha */
+    margin-top: -99px; /* Define a distância entre a linha e o texto acima */
+}
+
+.hrLine5 {
+    border: none;
+    border-top: 1px solid #ccc; /* Define a cor e o estilo da linha */
+    margin-top: -100px; /* Define a distância entre a linha e o texto acima */
+}
+
+/* INSTRUCTIONS*/
+.instructions{
+    display: grid;
+    background-color: white; /* Define a cor de fundo como branca */
+    margin: 50px;
+    margin-top: -400px;
+}
+
+.instructions h2{
+    font-family: "Outfit";
+    font-size: 30px;
+    color: #765243;
+    margin: 10px;
+}
+
+.instructionsList{
+    font-size: 15px;
+    margin: 20px;
+    margin-top: -95px;
+}
+
+.number{
+    color: #765243;
+}
+
+/* NUTRITION*/
+.nutrition{
+    display: grid;
+    background-color: white; /* Define a cor de fundo como branca */
+    margin: 50px;
+    margin-top: -225px;
+}
+
+.nutrition h2{
+    font-family: "Outfit";
+    font-size: 30px;
+    color: #765243;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.nutrition p{
+    font-size: 16px;
+    margin: 10px;
+    margin-top: -100px;
+}
+
+.tabela {
+    display: grid;
+    background-color: white; /* Define a cor de fundo como branca */
+    margin-bottom: -120px;
+    margin-top: -60px;
+}
+
+.tabela p{
+    padding-left: 50px;
+}

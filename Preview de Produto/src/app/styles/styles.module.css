@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  background-color: white; /* Define a cor de fundo como branca */
+  width: 600px; /* Defina o máximo de largura para o seu container */
+  height: 400px;
+  margin: 260px auto; /* Define as margens superior e inferior como 0 e as margens esquerda e direita como "auto" para centralizar o container na tela */
+  border-radius: 20px; /* Arredonda as bordas do container */
+  overflow: hidden; /* Para garantir que a imagem respeite o border-radius */
+}
+
+.image {
+  width: 50%; /* Define a largura da imagem para ocupar metade da largura da tela */
+}
+
+.productInfo {
+  width: 50%; /* Define a largura das informações do produto para ocupar a outra metade da largura da tela */
+  padding: 30px; /* Adiciona espaço interno de 20 pixels em todas as direções */
+}
+
+.productInfo h1 {
+  font-family: 'Crimson Text', serif; /* Aplica a fonte Crimson Text ao h1 */
+  font-size: 32px;
+  font-weight: bold; /* Define o texto do h2 em negrito */
+  margin-top: 0;  
+  color: black;
+}
+
+.productInfo h2 {
+  margin-top: 2px;
+  font-family: "Reddit Mono", monospace;
+  color: #b9bbc2;
+}
+
+.productInfo p {
+  font-size: 16px;
+  color: grey;
+}
+
+.price {
+  font-family: "Lobster", sans-serif;
+  font-size: 29px;
+  font-weight: bold; /* Define o texto do h2 em negrito */
+  margin-top: 5px;
+  color: green;
+}
+
+.discounted {
+  font-size: 15px;
+  margin-left: 19px;
+  color: #999; /* Define a cor do preço com desconto */
+}
+
+.promotionEnded {
+  margin-left: 5px; /* Espaçamento entre o preço com desconto e o risco */
+  text-decoration: line-through; /* Adiciona uma linha no texto */
+}
+
+.addButton {
+  margin-top: 20px;
+  padding: 12px 80px;
+  font-size: 12px;
+  background-color: #3c8268; /* Altere para a cor desejada */
+  color: white; /* Define a cor do texto do botão */
+  border: none;
+  border-radius: 7px;
+}
+
+.addButton:hover {
+  background-color: #5bac8e; /* Altere para a cor desejada quando o botão estiver em hover */
+}
+
+.cartIcon {
+  margin-right: 10px; /* Adiciona uma margem direita de 10 pixels ao ícone do carrinho */
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Altera a direção do flexbox para coluna em dispositivos móveis */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: 300px; /* Defina o máximo de largura para o seu container */
+    height: 600px;
+    margin: 150px auto; /* Define as margens superior e inferior como 0 e as margens esquerda e direita como "auto" para centralizar o container na tela */
+    border-radius: 20px; /* Arredonda as bordas do container */
+    overflow: hidden; /* Para garantir que a imagem respeite o border-radius */
+  }
+
+  .image {
+    width: 100%; /* Define a largura da imagem para ocupar metade da largura da tela */
+    height: 300px;
+  }
+  
+  .productInfo {
+    width: 90%; /* Define a largura das informações do produto para ocupar a outra metade da largura da tela */
+    padding: 10px; /* Adiciona espaço interno de 20 pixels em todas as direções */
+  }
+  
+  .productInfo h1 {
+    font-family: 'Crimson Text', serif; /* Aplica a fonte Crimson Text ao h1 */
+    font-size: 22px;
+    font-weight: bold; /* Define o texto do h2 em negrito */
+    margin-top: 0;  
+    color: black;
+  }
+  
+  .productInfo h2 {
+    margin-top: 2px;
+    font-family: "Reddit Mono", monospace;
+    color: #b9bbc2;
+  }
+  
+  .productInfo p {
+    font-size: 12px;
+    color: grey;
+  }
+  
+  .price {
+    font-family: "Lobster", sans-serif;
+    font-size: 19px;
+    font-weight: bold; /* Define o texto do h2 em negrito */
+    margin-top: 5px;
+    color: green;
+  }
+  
+  .discounted {
+    font-size: 15px;
+    margin-left: 19px;
+    color: #999; /* Define a cor do preço com desconto */
+  }
+  
+  .promotionEnded {
+    margin-left: 5px; /* Espaçamento entre o preço com desconto e o risco */
+    text-decoration: line-through; /* Adiciona uma linha no texto */
+  }
+  
+  .addButton {
+    margin-top: 20px;
+    padding: 12px 80px;
+    font-size: 12px;
+    background-color: #3c8268; /* Altere para a cor desejada */
+    color: white; /* Define a cor do texto do botão */
+    border: none;
+    border-radius: 7px;
+  }
+  
+  .addButton:hover {
+    background-color: #5bac8e; /* Altere para a cor desejada quando o botão estiver em hover */
+  }
+  
+  .cartIcon {
+    margin-right: 10px; /* Adiciona uma margem direita de 10 pixels ao ícone do carrinho */
+  }
+}
